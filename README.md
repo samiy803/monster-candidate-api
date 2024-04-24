@@ -43,4 +43,4 @@ This package is not affiliated with Monster. It is an unofficial package created
 Much of the code in this package is generated with the help of AI. As such, it may not be perfect. If you find any issues, please report them in the [GitHub repository](https://github.com/samiy803/monster-candidate-api/issues)
 
 ## License
-This package is licensed under GPL-3.0. You can find the full license text [here](LICENSE.md)
+This package is licensed under GPL-3.0. You can find the full license text [here](LICENSE)
