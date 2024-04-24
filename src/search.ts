@@ -123,6 +123,7 @@ interface JobDetail {
  * @param resumeBoardId - The resume board against which candidates will be matched. For every country the Monster Public Board is number 1. For private boards, Monster will provide the resumeBoardId.
  * @param jobDetail - The job detail to search for. Required if searchType is "JobDetail".
  * @param semantic - The semantic search criteria. Required if searchType is "Semantic".
+ * @beta
  */
 interface SearchRequest {
     country?: string;
@@ -134,6 +135,7 @@ interface SearchRequest {
 
 /**
  * Represents a search response.
+ * @beta
  */
 interface SearchResponse {
     originalCriteria?: any;
@@ -180,6 +182,7 @@ interface SearchResponse {
  * @param willingnessToTravel - Willingness to travel. Possible values: "NoTravelRequired", "UpTo25PercentTravel", "UpTo50PercentTravel", "UpTo75PercentTravel", "OneHundredPercentTravel"
  * @param workAuthorizations - List of work authorizations by country.
  * @param yearsOfExperience - Expression to describe the number of years’ experience for the search. Calculated from date ranges in the work history section of the resume. Accepted format: Single number of years (Ex.: "1"); or Range of years (Ex.: "1-5" inclusive); or Greater than expression (Ex.: “\>5”); or Greater than expression (Ex.: "5+" encoded as "5%2b"); or Less than expression (Ex.: "\<3", "\<8").
+ * @beta
  */
 interface Semantic {
     booleanExpression?: BooleanExpression;

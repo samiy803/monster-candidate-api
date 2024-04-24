@@ -1,3 +1,7 @@
+/**
+ * Represents a skill
+ * @beta
+ */
 interface Skill {
     name: string;
     yearsOfExperience: number;

@@ -2,6 +2,7 @@ import { Skill } from "./skill";
 
 /**
  * Represents a candidate's experience.
+ * @beta
  */
 interface Experience {
     title: {
@@ -18,6 +19,7 @@ interface Experience {
 
 /**
  * Represents a candidate's identity.
+ * @beta
  */
 interface Identity {
     seekerRefCode: string;
@@ -29,6 +31,7 @@ interface Identity {
 
 /**
  * Represents a candidate's location details.
+ * @beta
  */
 interface LocationDetails {
     city: string;
@@ -44,6 +47,7 @@ interface LocationDetails {
 
 /**
  * Represents a candidate's skill.
+ * @beta
  */
 interface Relevance {
     score: number;
@@ -53,6 +57,7 @@ interface Relevance {
 
 /**
  * Represents a board.
+ * @beta
  */
 interface Board {
     id: number;
@@ -61,6 +66,7 @@ interface Board {
 
 /**
  * Represents a candidate.
+ * @beta
  */
 interface Candidate {
     identity: Identity;
@@ -76,6 +82,7 @@ interface Candidate {
 
 /**
  * Represents a candidate's details.
+ * @beta
  */
 interface CandidateDetails extends Candidate {
     resumeTitle: string;

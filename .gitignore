@@ -1,3 +1,4 @@
 lib
 dist
-monster-candidate-api.api.md
+temp/*
+etc/*
