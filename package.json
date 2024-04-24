@@ -1,0 +1,29 @@
+{
+  "name": "monster-candidate-api",
+  "version": "1.0.0",
+  "description": "A small, typed, API wrapper for the Monster Candidate API",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -rf lib",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samiy803/monster-candidate-api.git"
+  },
+  "keywords": [
+    "monster",
+    "candidate",
+    "api",
+    "job",
+    "search"
+  ],
+  "author": "Sami Yousef",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/samiy803/monster-candidate-api/issues"
+  },
+  "homepage": "https://github.com/samiy803/monster-candidate-api#readme",
+  "typings": "./lib/index.d.ts"
+}
